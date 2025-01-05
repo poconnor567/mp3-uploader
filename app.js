@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Logic App URLs
     const uploadLogicAppUrl = "https://prod-34.eastus.logic.azure.com:443/workflows/965e09fb2eb344e8bb8e5f3c0e16d553/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=TYprWTaHM8Lpu9FcRkmpHuHbMlLmc114t4PoeIreGmA"; // Replace with the actual POST Logic App URL
-    const retrieveLogicAppUrl = "YOUR_LOGIC_APP_RETRIEVE_URL"; // Replace with the actual GET Logic App URL
+    const retrieveLogicAppUrl = "https://prod-36.eastus.logic.azure.com:443/workflows/93203ea0b40e4153be2814fcec5ed88e/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=BNh7_mpooPQAyffOci-Yh7Bzduutw0_RqiG4QpCAFwA"; // Replace with the actual GET Logic App URL
 
     // Handle form submission for file upload
     uploadForm.addEventListener("submit", async (event) => {
